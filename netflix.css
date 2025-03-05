@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    background-color: black;
+}
+.main{
+    background-image: url("assets/images/background.jpg");
+    background-position: center center;
+    background-size: max(1200px, 100vw); 
+    background-repeat: no-repeat;
+    height: 70vh;
+    position: relative;
+}
+.main .box{
+    height: 70vh;
+    width: 100%;
+    opacity: 0.44;
+    position: absolute;
+    top: 0;
+    background-color: black;
+}
+nav{
+    max-width: 70vw;
+    justify-content: space-between;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 60px;
+}
+nav img{
+    color: red;
+    width: 130px;
+    position: relative;
+    z-index: 10;
+}
+.hero{
+    font-family: "Open Sans", sans-serif;
+    height: calc(100% - 60px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 20px;
+    padding: 0 30px;
+    text-align: center;
+}
+.hero> :nth-child(1){
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    font-weight: bolder;
+    text-align: center;
+}
+.hero> :nth-child(2){
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+}
+.hero> :nth-child(3){
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+.line{
+    height: 5px;
+    background-color: rgb(47, 46, 46);
+}
+.btn{
+    padding: 3px 8px;
+    font-weight: 400;
+    color: white;
+    background-color: rgb(9, 9, 9);
+    border: 1px solid white;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.btn-red{
+    background-color:red ;
+    color: white;
+    padding: 8px 25px;
+    font-size: 20px;
+    border-radius: 4px;
+    font-weight: 400;
+}
+.btn-red-sm{
+    background-color:red ;
+    color: white;
+}
+.herobuttons{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    gap: 16px;
+}
+.main input{
+    padding: 12px 100px 10px 15px;
+    color: white;
+    font-weight: 900;
+    font-size: 12px;
+    border-radius: 4px;
+    background-color: rgba(23, 23,23,0.7);
+    border: 1px solid rgba(120, 113, 113, 0.5);
+}
