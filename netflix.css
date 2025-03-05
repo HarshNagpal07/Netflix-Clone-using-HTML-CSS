@@ -106,3 +106,6 @@ nav img{
     background-color: rgba(23, 23,23,0.7);
     border: 1px solid rgba(120, 113, 113, 0.5);
 }
+.main output{
+    background-color: aliceblue;
+}
