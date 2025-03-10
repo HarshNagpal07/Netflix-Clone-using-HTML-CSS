@@ -106,6 +106,36 @@ nav img{
     background-color: rgba(23, 23,23,0.7);
     border: 1px solid rgba(120, 113, 113, 0.5);
 }
-.main output{
-    background-color: aliceblue;
+.first{
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    align-items: center;
+}
+.secimage{
+    position: relative;
+}
+.secimage img{
+    position: relative;
+    z-index: 10;
+}
+.secimage video{
+    position: absolute;
+    top: 55px;
+    right: 0;
+    width: 555px;
+}
+section.first > div{
+    display: flex;
+    flex-direction: column;
+}
+section.first > div :nth-child(1){
+    font-size: 48px;
+    font-weight: bolder;
+}
+section.first > div :nth-child(2){
+    font-size: 24px;
+    font-weight: bolder;
 }
