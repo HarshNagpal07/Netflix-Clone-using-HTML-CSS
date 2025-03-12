@@ -139,3 +139,53 @@ section.first > div :nth-child(2){
     font-size: 24px;
     font-weight: bolder;
 }
+.faq{
+    background: black;
+    color: white;
+    font-size: 24px;
+}
+.faq h2{
+    text-align: center;
+    font-size: 48px;
+}
+.faqbox{
+    display: flex;
+    transition: all 1s ease-out;
+    justify-content: space-between;
+    background-color: rgb(88, 86, 86);
+    padding: 20px;
+    max-width: 60vw;
+    margin: 20px auto;  
+    cursor: pointer; 
+}
+.faqbox:hover{
+    background-color: rgb(180, 170, 170);
+    color: white; 
+}
+.faqbox svg{
+    filter: invert(1);
+}
+footer{
+    color: white;
+    max-width: 60vw;
+    margin: auto;
+    padding: 14px;
+}
+footer .questions{
+    padding: 34px 0;
+}
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+}
+.footer a{
+    font-size: 14px;
+    color: white;
+}
+.footer-item{
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+    align-items: start;
+}
