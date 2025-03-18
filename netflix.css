@@ -7,6 +7,8 @@
 body{
     background-color: black;
 }
+
+/* Setting the background with their positioning */
 .main{
     background-image: url("assets/images/background.jpg");
     background-position: center center;
@@ -39,7 +41,7 @@ nav img{
 }
 nav button{
     position: relative;
-    z-index: 10;
+    z-index: 10; /*Just Setting the darkness of button to avoid the background*/
 }
 .hero{
     font-family: "Open Sans", sans-serif;
@@ -54,6 +56,7 @@ nav button{
     padding: 0 30px;
     text-align: center;
 }
+/* The greater sign symbol is applied here because this syntax is categorised as the their class  */
 .hero> :nth-child(1){
     font-family: 'Poppins', sans-serif;
     font-size: 48px;
