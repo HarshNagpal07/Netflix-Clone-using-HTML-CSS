@@ -199,9 +199,12 @@ footer .questions{
         width: 305px;
     }
 }
-@media screen and (max-width: 1300px) {
-    display:grid;
+@media screen and (max-width: 1300px){
+    .footer{
+    display: grid;
     grid-template-columns: 1fr 1fr;
+    gap: 25px;
+}
 }
 .footer a{
     font-size: 14px;
