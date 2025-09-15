@@ -1,4 +1,4 @@
-Netflix Clone
+7Netflix Clone
 A simple Netflix clone built using HTML and CSS to replicate the UI of the popular streaming platform.
 
 Tech Stack
@@ -16,7 +16,7 @@ Installation & Setup
 git clone https://github.com/your-username/netflix-clone.git
 2.Navigate to the project directory:
 cd netflix-clone
-3.Open index.html in your browser.
+3.Open index.html in your browser....
 
 Folder Structure:-
 netflix-clone/
